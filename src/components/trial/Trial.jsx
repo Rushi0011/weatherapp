@@ -97,6 +97,7 @@ export const Trial = () => {
             placeholder="Enter city name"
             value={city}
             onChange={(e) => setCity(e.target.value)}
+            onKeyDown={(e) => {if(e.key ==  'Enter') handleSearch()}}
             spellCheck="false"
           />
           <button onClick={handleSearch}>

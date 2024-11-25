@@ -4,14 +4,16 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Trial } from './components/trial/Trial'
 import { FamoutCountries } from './components/famousCountry/FamoutCountries'
+import { WeatherMain } from './components/weatherMain/weatherMain'
 
 function App() {
   
 
   return (
     <>
-    <FamoutCountries />
-   { <Trial></Trial>  }
+    {/* <FamoutCountries /> */}
+   {/* { <Trial></Trial>  } */}
+   <WeatherMain />
     </>
   )
 }

@@ -1,0 +1,16 @@
+.dropdown
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.countrycard-container
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.card-weather-icon
+{
+    
+}

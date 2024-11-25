@@ -1,6 +1,4 @@
-
-
-export const countryToCities = {
+ export const countryTopCities = {
     India: ["Pune", "Mumbai", "Delhi", "Bangalore"],
     USA: ["New York", "Los Angeles", "Chicago", "Houston"],
     China: ["Beijing", "Shanghai", "Guangzhou", "Shenzhen"],
@@ -23,6 +21,27 @@ export const countryToCities = {
     Argentina: ["Buenos Aires", "Córdoba", "Rosario", "Mendoza"],
   };
 
-  export const countries = ["India", "USA", "China", "Japan", "Germany", "UnitedKingdom", "France", "Brazil", "Russia", "Australia", "Canada","Italy", "SouthKorea", "Mexico","SouthAfrica", "Spain", "Turkey", "Indonesia", "SaudiArabia", "Argentina"];
+  export const countriesDropdownOptions = [
+    { "label": "India", "value": "India" },
+    { "label": "USA", "value": "USA" },
+    { "label": "China", "value": "China" },
+    { "label": "Japan", "value": "Japan" },
+    { "label": "Germany", "value": "Germany" },
+    { "label": "United Kingdom", "value": "UnitedKingdom" },
+    { "label": "France", "value": "France" },
+    { "label": "Brazil", "value": "Brazil" },
+    { "label": "Russia", "value": "Russia" },
+    { "label": "Australia", "value": "Australia" },
+    { "label": "Canada", "value": "Canada" },
+    { "label": "Italy", "value": "Italy" },
+    { "label": "South Korea", "value": "SouthKorea" },
+    { "label": "Mexico", "value": "Mexico" },
+    { "label": "South Africa", "value": "SouthAfrica" },
+    { "label": "Spain", "value": "Spain" },
+    { "label": "Turkey", "value": "Turkey" },
+    { "label": "Indonesia", "value": "Indonesia" },
+    { "label": "Saudi Arabia", "value": "SaudiArabia" },
+    { "label": "Argentina", "value": "Argentina" }
+  ];
   
   
