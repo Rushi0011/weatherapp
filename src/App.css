@@ -13,8 +13,8 @@ body{
 
 
 
-.navbar {
-  background-color: #030303; /* Set the background color */
+/* .navbar {
+  background-color: #030303; 
   overflow: hidden;
 }
 
@@ -36,8 +36,8 @@ body{
   font-weight: bold;
 }
 .weather-app { 
-  padding-bottom: 25px; /* Adds blank space at the bottom */
-}
+  padding-bottom: 25px; 
+} */
 
 .dropdown .ant-select-selector {
   background: #ebfffc !important;

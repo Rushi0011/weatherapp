@@ -7,6 +7,7 @@ import SearchIcon from "../../assets/images/search.png";
 import HumidityImg from "../../assets/images/humidity.png";
 import WindImg from "../../assets/images/wind.png";
 import { TopCountries } from '../topCountries/TopCountries';
+import { Navbar } from '../navbar/Navbar';
 
 export const WeatherMain = () => {
     const [city, setCity] = useState("");
@@ -48,10 +49,9 @@ export const WeatherMain = () => {
 
     return (
         <>
-            <div className="weather-app">
-        <div className="navbar">
-            <a href="/" className="logo">WeatherApp</a>
-        </div>
+        <div className="weather-app">
+        
+        <Navbar />
 
         <div className="cardContainer">
             <div className="card">
@@ -61,7 +61,7 @@ export const WeatherMain = () => {
                     placeholder="Enter city name"
                     value={city}
                     onChange={(e) => setCity(e.target.value)}
-                    onKeyDown={(e) => {if(e.key ==  'Enter') handleSearch()}}
+                    onKeyDown={(e) => {if(e.key ==  'Enter') handleSearch(city)}}
                     spellCheck="false"
                 />
                 <button onClick={() => handleSearch(city)}>
